@@ -1,0 +1,27 @@
+#Installation Wordpress
+/wp-cms/*
+
+#Contenus non versionnés
+/wp-content/uploads/
+/wp-content/plugins/
+
+#Configuration
+/wp-config.php
+
+
+# Operating system specific files
+.DS_Store
+
+/build
+
+data/
+node_modules/
+certs/
+*.log
+npm-debug.log
+.buildpath
+.project
+.idea/
+.vscode/
+*.out
+~/.vscode-root/
