@@ -4,7 +4,7 @@
 #Contenus non versionnés
 /wp-content/uploads/
 /wp-content/plugins/
-
+!/wp-content/plugins/bp-custom.php
 #Configuration
 /wp-config.php
 
