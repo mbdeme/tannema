@@ -13,4 +13,5 @@ if ( !defined( 'BP_AVATAR_FULL_HEIGHT' ) )
 define( 'BP_AVATAR_FULL_HEIGHT', 580 ); //change this to default height for full avatar
  
 add_filter('bp_get_send_public_message_button', '__return_false');
+add_filter('bp_current_user_can', '__return_false');
 ?>
